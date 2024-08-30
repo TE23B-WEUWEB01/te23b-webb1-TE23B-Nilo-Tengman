@@ -1,0 +1,29 @@
+body {
+    background-color: coral;
+    font-family: "Noto Sans Hanunoo", sans-serif;
+    background-image: url("./bilder/rats-rat.gif");
+}
+
+h1 {
+    color: gold;
+    font-size: 150px;
+    font-family: "Noto Sans Hanunoo", sans-serif;
+}
+
+h2 {
+    color: brown;
+    font-size: 70px;
+    font-family: "Noto Sans Hanunoo", sans-serif;
+}
+
+p {
+    color: aquamarine;
+    font-size: 100px;
+    font-family: "Noto Sans Hanunoo", sans-serif;
+}
+
+a {
+    color: lime;
+    font-size: 15px;
+    font-family: "Noto Sans Hanunoo", sans-serif;
+}
