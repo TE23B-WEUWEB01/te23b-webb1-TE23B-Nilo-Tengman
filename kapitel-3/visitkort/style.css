@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(188, 19, 109);
+}
+div {
+    background-image: url(./bilder/dave-ruck-c1oDyH4m-9E-unsplash.jpg);
+    width: 500px;
+    height: 400px;
+    background-position: 0px -200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 30px 30px 1000px gold;    
+}
+h1 {
+    font-family: "Caveat", cursive;
+    font-size: 50px;
+    padding-left: 10px;
+}
+h2{
+    font-family: "Dancing Script", cursive;
+    color: gold;
+    font-size: 30px;
+    padding-left: 10px;
+}
+p {
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    padding-left: 10px;
+}
