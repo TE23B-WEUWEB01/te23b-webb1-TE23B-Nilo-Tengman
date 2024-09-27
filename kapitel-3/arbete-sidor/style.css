@@ -1,0 +1,65 @@
+
+
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+body.sida1 {
+    background-image: url("./bilder/pattern-7303170_640.jpg")
+}
+body.sida2 {
+    background-image: url("./bilder/twigs-4211837_640.jpg");
+}
+body.sida3{
+    background-image: url("./bilder/leaves-8724660_640.jpg");
+}
+body.sida4{
+    background-image: url("./bilder/flowers-7725272_640.jpg");
+}
+body.sida5{
+    background-image: url("./bilder/ai-generated-8604390_640.jpg");
+}
+body.sida6{
+    background-image: url("./bilder/ai-generated-8229330_640.jpg");
+}
+div {
+    background-color: #fff;
+    width: 400px;
+    border: dashed rgb(27, 67, 84);
+    margin: auto;
+    margin-top: 150px;
+    padding: 25px;
+    font-family: "Arvo", serif;
+}
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
