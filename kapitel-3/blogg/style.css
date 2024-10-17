@@ -1,5 +1,12 @@
 
-
+:root {
+/* CSS HEX */
+--ecru: #D1BF89ff;
+--midnight-green: #105366ff;
+--prussian-blue: #03324Bff;
+--dutch-white: #DCD9B6ff;
+--gunmetal: #203643ff;
+}
 
 /* Enkel CSS-reset */
 html {
@@ -11,15 +18,16 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
+    
 }
 
 
 /* Layout */
 body{
-
+    background-color: var(--prussian-blue);
 }
 .con{
-    background-color:darkcyan;
+    background-color:#105366;
     width: 700px;
     padding: 50px;
     margin: auto;
@@ -27,7 +35,7 @@ body{
     margin-bottom: 50px;
 }
 .post{
-    background-color: goldenrod;
+    background-color: #D1BF89;
     padding: 30px;
     margin-bottom: 50px;
 }
