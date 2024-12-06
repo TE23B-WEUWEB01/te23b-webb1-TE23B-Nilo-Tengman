@@ -36,6 +36,7 @@ background-color: #ad080f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffd100;
     border: 2px black solid;
+    
 }
 
 /* Menyn utseende */
@@ -45,9 +46,10 @@ background-color: #ad080f;
     justify-content: space-between;
     list-style-type: none;
     padding: 0 20px;
+    
 }
 .kontainer li {
-
+    
 }
 .kontainer ul a {
     text-decoration: none;
@@ -56,15 +58,16 @@ background-color: #ad080f;
     border-radius: 3px;
     width: 140px;
     display: inline-block;
-    box-shadow: 4px 4px 0 #390104;
+    box-shadow: 4px 4px 0 #000000;
     text-align: center;
     height: 60px;
+    color: #ffffff;
 }
 .kontainer ul a:hover {
-    background-color: rgb(177, 175, 175);
+    background-color: #004733;
 }
 .kontainer ul .aktiv {
-    background-color: rgb(177, 175, 175);
+    background-color: #004733;
 }
 .box {
     background-color: #ffffff;
