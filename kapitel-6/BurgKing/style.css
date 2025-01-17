@@ -19,7 +19,7 @@ padding: 0;
 bg-färg = #FBF7F1
 burg bg-färg = F5EBDC
 textfärg = #502314
-knappfärg = #CC22
+knappfärg = #CC2200
 typsnitt: 
   font-family: "Modak", serif;
   font-weight: 400;
@@ -27,19 +27,70 @@ typsnitt:
 */
 
 /* Sidlayout */
-body {}
-.kontainer {}
+body {
+  background-color: #FBF7F1;
+}
+.kontainer {
+  width: 1200px;
+  margin: auto;
+  font-family: "Modak", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Sidhuvud */
-.sidhuvud {}
-.sidhuvud .meny {}
-.sidhuvud .meny a {}
-.sidhuvud .erbjudande {}
+.sidhuvud {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+.sidhuvud .meny {
+  padding: 10px
+}
+.sidhuvud .meny a {
+  text-decoration: none;
+  color: #502314;
+  padding: 10px;
+}
+.sidhuvud .erbjudande {
+  text-decoration: none;
+  color: #CC2200;
+  border: 2px solid #CC2200;
+  border-radius: 5px;
+  padding: 10px;
+}
 
 /* Sidinnehåll */
 .innehall {}
-.innehall h2 {}
-.innehall .kolumner-3 {}
-.innehall .kolumner-3 .burgare {}
-.innehall .kolumner-3 .burgare img {}
-.innehall .kolumner-3 .burgare p {}
+.innehall h2 {
+  font-weight: 400;
+  font-size: 50px;
+}
+.innehall .kolumner-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.innehall .kolumner-3 .burgare {
+  background-color: #F5EBDC;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+  height: 150px;
+  cursor: pointer;
+}
+.innehall .kolumner-3 .burgare:hover {
+  transition-duration: 500ms;
+  height: 400px;
+  background-image: url(./bilder/rats-rat.gif);
+}
+.innehall .kolumner-3 .burgare img {
+  width: 100%;
+}
+.innehall .kolumner-3 .burgare img.fix {
+  margin-bottom: 65px;
+}
+.innehall .kolumner-3 .burgare p {
+  font-size: 25px;
+}
