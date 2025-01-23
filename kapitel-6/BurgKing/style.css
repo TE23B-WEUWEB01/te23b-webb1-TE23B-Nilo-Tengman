@@ -1,18 +1,28 @@
-
-
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
 /* CSS reset */
 html {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, *:before, *:after {
-box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-body, h1, h2, h3, h4, h5, h6, p, ul {
-margin: 0;
-padding: 0;
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 /* 
@@ -30,6 +40,7 @@ typsnitt:
 body {
   background-color: #FBF7F1;
 }
+
 .kontainer {
   width: 1200px;
   margin: auto;
@@ -45,14 +56,18 @@ body {
   padding: 20px 0;
   border-bottom: 1px solid black;
 }
+
 .sidhuvud .meny {
   padding: 10px
 }
+
 .sidhuvud .meny a {
   text-decoration: none;
   color: #502314;
   padding: 10px;
+  
 }
+
 .sidhuvud .erbjudande {
   text-decoration: none;
   color: #CC2200;
@@ -63,15 +78,18 @@ body {
 
 /* Sidinnehåll */
 .innehall {}
+
 .innehall h2 {
   font-weight: 400;
   font-size: 50px;
 }
+
 .innehall .kolumner-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
+
 .innehall .kolumner-3 .burgare {
   background-color: #F5EBDC;
   border-radius: 15px;
@@ -80,17 +98,21 @@ body {
   height: 150px;
   cursor: pointer;
 }
+
 .innehall .kolumner-3 .burgare:hover {
   transition-duration: 500ms;
   height: 400px;
   background-image: url(./bilder/rats-rat.gif);
 }
+
 .innehall .kolumner-3 .burgare img {
   width: 100%;
 }
+
 .innehall .kolumner-3 .burgare img.fix {
   margin-bottom: 65px;
 }
+
 .innehall .kolumner-3 .burgare p {
   font-size: 25px;
 }

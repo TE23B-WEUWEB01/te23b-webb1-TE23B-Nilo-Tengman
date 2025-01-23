@@ -1,0 +1,105 @@
+/* CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidlayout */
+body {
+    background-color: #F3F0DD;
+    background-image: url(./bilder/middag!.jpg);
+    background-repeat: no-repeat;
+}
+
+.kontainer {
+    width: 1200px;
+    margin: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Sidhuvud */
+.sidhuvud {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.sidhuvud .lankar {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    gap: 59px;
+}
+
+.sidhuvud .lankar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+
+}
+.sidhuvud .lankar img {
+    width: 10%;
+}
+
+/* Sidinnehåll */
+.innehall {
+    background-color: #F9F8F1;
+    height: 600px;
+    padding: 20px;
+}
+
+.innehall h1 {
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.innehall p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.innehall .kolumner-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.innehall .kolumner-4 .meny {
+    border: #fff;
+    border-radius: 0px;
+    height: 350px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.innehall .kolumner-4 .meny img {
+    width: 100%;
+}
+
+.innehall .kolumner-4 .meny p {
+    text-align: left;
+    font-size: 18px;
+}
