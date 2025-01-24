@@ -63,7 +63,7 @@ body {
 /* Sidinnehåll */
 .innehall {
     background-color: #F9F8F1;
-    height: 600px;
+    height: 1000px;
     padding: 20px;
 }
 
@@ -78,13 +78,14 @@ body {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    padding: 20px;
+    margin-top: 20px;
 }
 
 .innehall .kolumner-4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    margin-top: 20px;
 }
 
 .innehall .kolumner-4 .meny {
@@ -93,6 +94,11 @@ body {
     height: 350px;
     cursor: pointer;
     background-color: #fff;
+    transition-duration: 500ms;
+}
+.innehall .kolumner-4 .meny:hover {
+    box-shadow: #FFCB17 10px 10px 0;
+    transition-duration: 500ms;
 }
 
 .innehall .kolumner-4 .meny img {
