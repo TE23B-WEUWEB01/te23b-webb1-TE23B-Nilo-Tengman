@@ -33,7 +33,7 @@ img {
 body {
     background-image: url(./bilder/maket.jpg);
     font-family: "Pacifico", serif;
-    
+
 }
 
 .kontainer {
@@ -46,11 +46,11 @@ body {
 .kontainer {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-areas: 
-    "sidhuvud sidhuvud" 
-    "artiklarna sidebar" 
-    "sidfot sidfot";
-
+    grid-template-areas:
+        "sidhuvud sidhuvud"
+        "artiklarna sidebar"
+        "sidfot sidfot";
+    gap: 20px;
 }
 
 header {
@@ -60,17 +60,25 @@ header {
 
 main {
     grid-area: artiklarna;
-    background-color: yellowgreen;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 aside {
     grid-area: sidebar;
-    background-color: purple;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 20px;
+
 }
 
 footer {
     grid-area: sidfot;
-    background-color: brown;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 20px;
+
 }
 
 /* sidhuvud */
@@ -86,13 +94,30 @@ header h2 {}
 header nav {}
 
 /* Menyn */
-header nav {}
+header nav {
+    background: rgb(195, 109, 181);
+    background: linear-gradient(0deg, rgba(195, 109, 181, 1) 0%, rgba(255, 192, 203, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    padding: 20px;
+}
 
-header nav a {}
+header nav a {
+    color: purple;
+    text-decoration: none;
+    padding: 20px 10px;
+}
 
-header nav a.aktiv {}
+header nav a.aktiv {
+    background: rgb(195, 109, 181);
+    background: radial-gradient(circle, rgba(195, 109, 181, 1) 0%, rgba(255, 192, 203, 1) 30%, rgba(130, 9, 28, 1) 31%, rgba(255, 215, 222, 1) 32%, rgba(255, 222, 228, 1) 56%, rgba(255, 253, 0, 1) 58%, rgba(255, 223, 229, 1) 60%, rgba(62, 37, 171, 1) 68%, rgba(255, 229, 233, 1) 79%, rgba(47, 174, 60, 1) 84%, rgba(255, 240, 242, 1) 88%, rgba(255, 244, 245, 1) 91%, rgba(255, 255, 255, 1) 100%);
+    padding: 10px;
+}
 
-header nav a:hover {}
+header nav a:hover {
+    background: rgb(195, 109, 181);
+    background: radial-gradient(circle, rgba(195, 109, 181, 1) 0%, rgba(255, 192, 203, 1) 30%, rgba(130, 9, 28, 1) 31%, rgba(255, 215, 222, 1) 32%, rgba(255, 222, 228, 1) 56%, rgba(255, 253, 0, 1) 58%, rgba(255, 223, 229, 1) 60%, rgba(62, 37, 171, 1) 68%, rgba(255, 229, 233, 1) 79%, rgba(47, 174, 60, 1) 84%, rgba(255, 240, 242, 1) 88%, rgba(255, 244, 245, 1) 91%, rgba(255, 255, 255, 1) 100%);
+    padding: 10px;
+    transition: 0.1s;
+}
 
 /* Innehall */
 main {}
@@ -101,7 +126,12 @@ main article {}
 
 main article h3 {}
 
-main article figure {}
+main article figure {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid;
+}
 
 main article figure img {}
 
