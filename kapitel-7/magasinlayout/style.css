@@ -1,0 +1,74 @@
+/* Enkel CSS reset*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* Holy Grail Layout */
+.kontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer"
+    ;
+}
+
+header {
+    background-color: aqua;
+    grid-area: header;
+    min-height: 20vh;
+}
+
+nav {
+    background-color: rgb(74, 31, 86);
+    grid-area: nav;
+    min-height: 20vh;
+}
+
+main {
+    background-color: rgb(114, 189, 33);
+    grid-area: main;
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+aside {
+    background-color: rgb(187, 36, 169);
+    grid-area: aside;
+    min-height: 20vh;
+    
+}
+
+footer {
+    background-color: rgb(194, 15, 33);
+    grid-area: footer;
+    min-height: 20vh;
+}
